@@ -1,0 +1,58 @@
+/* Styling keseluruhan halaman */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #fff5f8);
+    color: #444;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama */
+.card {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.15);
+    border: 1px solid #ffd6e7;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efek hover card */
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(255, 105, 180, 0.2);
+}
+
+/* Header utama */
+h1 {
+    color: #ff4da6;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #ffb6d9, transparent);
+    margin: 15px 0;
+}
+
+/* Greeting */
+small {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color: #c06c9f;
+    margin-top: 8px;
+}
