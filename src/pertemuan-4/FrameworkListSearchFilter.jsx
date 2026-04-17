@@ -1,6 +1,27 @@
 import frameworkData from "./framework.json";
+import { useState } from "react";
 
-export default function FrameworkList() {
+export default function FrameworkListSearchFilter() {
+    const [searchTerm, setSearchTerm] = useState("");
+	const [selectedTag, setSelectedTag] = useState("");
+    /** Deklrasai Logic Search & Filter **/
+    const _searchTerm = searchTerm.toLowerCase();
+    const filteredFrameworks = frameworkData.filter((framework) => {
+        const matchesSearch =
+        framework.name
+                    .toLowerCase()
+                    .includes(_searchTerm) ||
+        framework.description
+                    .toLowerCase()
+                    .includes(_searchTerm);
+
+        const matchesTag = selectedTag ? framework.tags.includes(selectedTag) : true;
+
+        return matchesSearch && matchesTag;
+    });
+    const allTags = [
+        ...new Set(frameworkData.flatMap((framework) => framework.tags)),
+    ];
     return (
         // Container utama dengan background soft pink yang sangat muda
         <div className="min-h-screen bg-[#fff5f6] p-8 font-sans">
@@ -8,8 +29,28 @@ export default function FrameworkList() {
                 <h1 className="text-3xl font-extrabold text-[#86444c] mb-8 text-center italic">
                     Framework Collections
                 </h1>
+                <input
+                type="text"
+                name="searchTerm"
+                placeholder="Search framework..."
+                className="w-full p-2 border border-gray-300 rounded mb-4"
+                onChange={(e) => setSearchTerm(e.target.value)}
+                />
+
+                <select
+                name="selectedTag"
+                className="w-full p-2 border border-gray-300 rounded mb-4"
+                onChange={(e) => setSelectedTag(e.target.value)}
+                >
+                <option value="">All Tags</option>
+                    {allTags.map((tag, index) => (
+                        <option key={index} value={tag}>
+                        {tag}
+                        </option>
+                    ))}
+                </select>
                 
-                {frameworkData.map((item) => (
+                {filteredFrameworks.map((item) => (
                     <div 
                         key={item.id} 
                         className="group relative border-none p-6 mb-8 rounded-4xl shadow-xl shadow-rose-100/50 bg-white/80 backdrop-blur-sm hover:scale-[1.02] transition-all duration-300 ease-in-out"
