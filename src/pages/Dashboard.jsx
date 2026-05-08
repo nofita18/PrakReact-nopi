@@ -119,7 +119,7 @@ export default function Dashboard() {
                             <tbody>
                                 <tr className="border-b">
                                 <td className="py-3">Nofita</td>
-                                <td className="text-hijau font-semibold">Delivered</td>
+                                <td className="text-hijau font-semibold">Completed</td>
                                 <td>Rp 120.000</td>
                                 <td>20 Apr 2025</td>
                                 </tr>
@@ -140,7 +140,7 @@ export default function Dashboard() {
 
                                 <tr>
                                 <td className="py-3">Andi</td>
-                                <td className="text-hijau font-semibold">Delivered</td>
+                                <td className="text-hijau font-semibold">Completed</td>
                                 <td>Rp 210.000</td>
                                 <td>17 Apr 2025</td>
                                 </tr>
