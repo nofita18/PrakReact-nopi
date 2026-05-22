@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "tittle": "Laptop Gaming ASUS",
+    "code": "PRD001",
+    "category": "Laptop",
+    "brand": "ASUS",
+    "price": 15000000,
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "tittle": "iPhone 15 Pro",
+    "code": "PRD002",
+    "category": "Smartphone",
+    "brand": "Apple",
+    "price": 21000000,
+    "stock": 5
+  },
+  {
+    "id": 3,
+    "tittle": "Samsung Galaxy S24",
+    "code": "PRD003",
+    "category": "Smartphone",
+    "brand": "Samsung",
+    "price": 17000000,
+    "stock": 8
+  },
+  {
+    "id": 4,
+    "tittle": "Mouse Logitech G304",
+    "code": "PRD004",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "price": 450000,
+    "stock": 20
+  },
+  {
+    "id": 5,
+    "tittle": "Keyboard Mechanical Rexus",
+    "code": "PRD005",
+    "category": "Accessories",
+    "brand": "Rexus",
+    "price": 700000,
+    "stock": 15
+  },
+  {
+    "id": 6,
+    "tittle": "Monitor LG 24 Inch",
+    "code": "PRD006",
+    "category": "Monitor",
+    "brand": "LG",
+    "price": 2500000,
+    "stock": 7
+  },
+  {
+    "id": 7,
+    "tittle": "Printer Epson L3210",
+    "code": "PRD007",
+    "category": "Printer",
+    "brand": "Epson",
+    "price": 2300000,
+    "stock": 9
+  },
+  {
+    "id": 8,
+    "tittle": "Headset HyperX Cloud",
+    "code": "PRD008",
+    "category": "Audio",
+    "brand": "HyperX",
+    "price": 1200000,
+    "stock": 11
+  },
+  {
+    "id": 9,
+    "tittle": "Speaker JBL Flip",
+    "code": "PRD009",
+    "category": "Audio",
+    "brand": "JBL",
+    "price": 1800000,
+    "stock": 6
+  },
+  {
+    "id": 10,
+    "tittle": "Smart TV Xiaomi 43",
+    "code": "PRD010",
+    "category": "Television",
+    "brand": "Xiaomi",
+    "price": 4200000,
+    "stock": 4
+  },
+  {
+    "id": 11,
+    "tittle": "SSD Samsung 1TB",
+    "code": "PRD011",
+    "category": "Storage",
+    "brand": "Samsung",
+    "price": 1500000,
+    "stock": 14
+  },
+  {
+    "id": 12,
+    "tittle": "Harddisk WD 2TB",
+    "code": "PRD012",
+    "category": "Storage",
+    "brand": "Western Digital",
+    "price": 1200000,
+    "stock": 13
+  },
+  {
+    "id": 13,
+    "tittle": "Kamera Canon EOS",
+    "code": "PRD013",
+    "category": "Camera",
+    "brand": "Canon",
+    "price": 9500000,
+    "stock": 3
+  },
+  {
+    "id": 14,
+    "tittle": "Drone DJI Mini",
+    "code": "PRD014",
+    "category": "Drone",
+    "brand": "DJI",
+    "price": 7800000,
+    "stock": 5
+  },
+  {
+    "id": 15,
+    "tittle": "Tablet iPad Air",
+    "code": "PRD015",
+    "category": "Tablet",
+    "brand": "Apple",
+    "price": 11000000,
+    "stock": 6
+  },
+  {
+    "id": 16,
+    "tittle": "Powerbank Anker",
+    "code": "PRD016",
+    "category": "Accessories",
+    "brand": "Anker",
+    "price": 500000,
+    "stock": 18
+  },
+  {
+    "id": 17,
+    "tittle": "Smartwatch Huawei",
+    "code": "PRD017",
+    "category": "Wearable",
+    "brand": "Huawei",
+    "price": 3200000,
+    "stock": 9
+  },
+  {
+    "id": 18,
+    "tittle": "Router TP-Link",
+    "code": "PRD018",
+    "category": "Networking",
+    "brand": "TP-Link",
+    "price": 850000,
+    "stock": 16
+  },
+  {
+    "id": 19,
+    "tittle": "Flashdisk Sandisk 64GB",
+    "code": "PRD019",
+    "category": "Storage",
+    "brand": "Sandisk",
+    "price": 120000,
+    "stock": 30
+  },
+  {
+    "id": 20,
+    "tittle": "Webcam Logitech C920",
+    "code": "PRD020",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "price": 980000,
+    "stock": 12
+  },
+  {
+    "id": 21,
+    "tittle": "MacBook Air M3",
+    "code": "PRD021",
+    "category": "Laptop",
+    "brand": "Apple",
+    "price": 21000000,
+    "stock": 4
+  },
+  {
+    "id": 22,
+    "tittle": "Acer Nitro 5",
+    "code": "PRD022",
+    "category": "Laptop",
+    "brand": "Acer",
+    "price": 14000000,
+    "stock": 7
+  },
+  {
+    "id": 23,
+    "tittle": "Lenovo Legion",
+    "code": "PRD023",
+    "category": "Laptop",
+    "brand": "Lenovo",
+    "price": 18500000,
+    "stock": 5
+  },
+  {
+    "id": 24,
+    "tittle": "Nintendo Switch",
+    "code": "PRD024",
+    "category": "Console",
+    "brand": "Nintendo",
+    "price": 5200000,
+    "stock": 8
+  },
+  {
+    "id": 25,
+    "tittle": "PlayStation 5",
+    "code": "PRD025",
+    "category": "Console",
+    "brand": "Sony",
+    "price": 8700000,
+    "stock": 3
+  },
+  {
+    "id": 26,
+    "tittle": "Xbox Series X",
+    "code": "PRD026",
+    "category": "Console",
+    "brand": "Microsoft",
+    "price": 9200000,
+    "stock": 2
+  },
+  {
+    "id": 27,
+    "tittle": "Kipas Laptop Coolerpad",
+    "code": "PRD027",
+    "category": "Accessories",
+    "brand": "Cooler Master",
+    "price": 250000,
+    "stock": 17
+  },
+  {
+    "id": 28,
+    "tittle": "Mikrofon Fifine",
+    "code": "PRD028",
+    "category": "Audio",
+    "brand": "Fifine",
+    "price": 650000,
+    "stock": 10
+  },
+  {
+    "id": 29,
+    "tittle": "Proyektor Epson",
+    "code": "PRD029",
+    "category": "Projector",
+    "brand": "Epson",
+    "price": 5500000,
+    "stock": 4
+  },
+  {
+    "id": 30,
+    "tittle": "UPS APC 1200VA",
+    "code": "PRD030",
+    "category": "Power",
+    "brand": "APC",
+    "price": 2100000,
+    "stock": 6
+  }
+]

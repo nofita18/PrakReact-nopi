@@ -67,6 +67,15 @@ export default function Sidebar() {
                             Customers
                         </NavLink>
                     </li>
+                    {/* Products */}
+                    <li>
+                        <NavLink to="/products" className={menuClass}>
+                            <div className="flex items-center">
+                                <FaShoppingBasket className="mr-4 text-xl" />
+                                Products
+                            </div>
+                        </NavLink>
+                    </li>
                     <li>
                         <NavLink
                             to="/error400"

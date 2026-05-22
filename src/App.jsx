@@ -28,6 +28,9 @@ const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"))
 const Login = React.lazy(() => import("./pages/auth/Login"))
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"))
 const Register = React.lazy(() => import("./pages/auth/Register"))
+const Products = React.lazy(() => import("./pages/products"))
+
+const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 
 function App() {
   const [count, setCount] = useState(0);
@@ -42,6 +45,8 @@ function App() {
         <Route path="/error400" element={<Error400 />} />
         <Route path="/error401" element={<Error401 />} />
         <Route path="/error403" element={<Error403 />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/products/:id" element={<ProductDetail />} />
       </Route>
       <Route element={<AuthLayout/>}>
             <Route path="/login" element={<Login />} />
