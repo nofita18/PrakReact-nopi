@@ -3,7 +3,8 @@ import {
     FaThLarge, 
     FaShoppingBasket, 
     FaUsers, 
-    FaPlus 
+    FaPlus,
+    FaCubes
 } from "react-icons/fa";
 import { MdSpaceDashboard } from "react-icons/md";
 import { LuClipboardList, LuUsers } from "react-icons/lu";
@@ -73,6 +74,15 @@ export default function Sidebar() {
                             <div className="flex items-center">
                                 <FaShoppingBasket className="mr-4 text-xl" />
                                 Products
+                            </div>
+                        </NavLink>
+                    </li>
+                    {/* Components */}
+                    <li>
+                        <NavLink to="/components" className={menuClass}>
+                            <div className="flex items-center">
+                                <FaCubes className="mr-4 text-xl" />
+                                Components
                             </div>
                         </NavLink>
                     </li>
