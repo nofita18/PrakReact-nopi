@@ -112,6 +112,14 @@ export default function Sidebar() {
                             Error 403
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/fiturXyz" className={menuClass}>
+                            <div className="flex items-center">
+                                <FaCubes className="mr-4 text-xl" />
+                                Fitur Xyz
+                            </div>
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
 
