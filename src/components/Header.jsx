@@ -39,7 +39,7 @@ export default function Header() {
 
         {/* Profile */}
         <div className="flex items-center space-x-3 border-l pl-4">
-          <span>hai, <b>Nofita Nurchasanah</b></span>
+          <span>hai, <b>Nofita</b></span>
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ExGEHlPHckD3YbxH6e4kr25Ho2X4NifiQA&s"
             className="w-10 h-10 rounded-full"
