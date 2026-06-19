@@ -5,7 +5,8 @@ import {
     FaUsers, 
     FaPlus,
     FaCubes,
-    FaDatabase
+    FaDatabase,
+    FaRegStickyNote
 } from "react-icons/fa";
 import { MdSpaceDashboard } from "react-icons/md";
 import { LuClipboardList, LuUsers } from "react-icons/lu";
@@ -84,6 +85,14 @@ export default function Sidebar() {
                             <div className="flex items-center">
                                 <FaCubes className="mr-4 text-xl" />
                                 Components
+                            </div>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/note" className={menuClass}>
+                            <div className="flex items-center">
+                                <FaRegStickyNote className="mr-4 text-xl" />
+                                Note
                             </div>
                         </NavLink>
                     </li>
